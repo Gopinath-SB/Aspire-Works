@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "emailid": "gopi@gmail.com",
+      "uname": "gopinath",
+      "pass": "12345",
+      "confpass": "12345",
+      "id": 1
+    },
+    {
+      "emailid": "gopi@gmai.com",
+      "uname": " gopinath",
+      "pass": "12345",
+      "confpass": "12345",
+      "id": 2
+    },
+    {
+      "emailid": "gopi@gmai.com",
+      "uname": " gopinath",
+      "pass": "12345",
+      "confpass": "12345",
+      "id": 3
+    },
+    {
+      "emailid": "2k19cse025@kiot.ac.in",
+      "uname": " gopinath",
+      "pass": "12345",
+      "confpass": "12345",
+      "id": 4
+    },
+    {
+      "emailid": "2k19cse025@kiot.ac.in",
+      "uname": "gopinath",
+      "pass": "1789",
+      "confpass": "1789",
+      "id": 5
+    },
+    {
+      "emailid": "2k19cse025@kiot.ac.in",
+      "uname": "gopi",
+      "pass": "124",
+      "confpass": "12344",
+      "id": 6
+    },
+    {
+      "email": "2k19cse025@kiot.acin",
+      "username": "12345",
+      "password": "123456",
+      "confirmpass": "123456",
+      "id": 7
+    },
+    {
+      "email": "2k19cse@kiot.ac.in",
+      "username": "12345",
+      "password": "12345",
+      "confirmpass": "12345",
+      "id": 8
+    },
+    {
+      "email": "2k19cse@kiot.ac.in",
+      "username": "12345",
+      "password": "12345",
+      "confirmpass": "12345",
+      "id": 9
+    },
+    {
+      "email": "qw2q3@232.23",
+      "username": "12",
+      "password": "2",
+      "confirmpass": "2",
+      "id": 14
+    },
+    {
+      "email": "2k19cse023@kiot.ac.in",
+      "username": "sdacvsfb mv",
+      "password": "12345",
+      "confirmpass": "12345",
+      "id": 15
+    }
+  ]
+}
