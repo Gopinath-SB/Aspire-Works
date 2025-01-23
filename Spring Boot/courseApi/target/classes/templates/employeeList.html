@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee List</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Position</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="employee : ${employees}">
+                    <tr>
+                        <td th:text="${employee.id}"></td>
+                        <td th:text="${employee.name}"></td>
+                        <td th:text="${employee.department}"></td>
+                        <td th:text="${employee.position}"></td>
+                        <td>
+                            <a th:href="@{/employee/{id}(id=${employee.id})}">View</a> |
+                            <a th:href="@{/employee/edit/{id}(id=${employee.id})}">Edit</a> |
+                            <a th:href="@{/employee/delete/{id}(id=${employee.id})}">Delete</a>
+                        </td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+        <a href="/employee/add">Add New Employee</a>
+    </div>
+</body>
+</html>
